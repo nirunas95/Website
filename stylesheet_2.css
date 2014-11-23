@@ -4,7 +4,7 @@ i.e. "h1 {}" targets only items with the h1 tag around it */
 Same applies for ol li */
 
 			body {
-				background-color: #aaaaaa;
+				background-color: rgba(0,0,0,0.5);
 				font-family: 'Abel'; sans-serif;
 				position: center;
 				margin: 0 auto;
@@ -24,6 +24,7 @@ Same applies for ol li */
 
 			p {
 				font-family: 'Abel'; sans-serif;
+				font-size: 20px;
 			}
 
 			div {
@@ -91,7 +92,6 @@ Same applies for ol li */
 
 			.images {
 				min-height: 0px;
-				max-width: 410px;
 			}
 /*
 			.row {
