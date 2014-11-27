@@ -13,6 +13,7 @@ Same applies for ol li */
 
 			h1 {
 				color: rgba(255, 255, 255, 1);
+				background-color: solid white;
 				text-align: center;
 				font-size: 75px;
 			}
@@ -20,6 +21,8 @@ Same applies for ol li */
 			h3 {
 				color: rgba(255, 255, 255, 1);
 				background-color: rgba(0,0,0,.4);
+				border-color: 7px solid black;
+				border-radius: 5px;
 			}
 
 			p {
@@ -86,16 +89,16 @@ Same applies for ol li */
 			}
 
 			.profile {
-				height: 100px;
-				max-width: 410px;
+				min-height: 100px;
+				min-width: 410px;
 			}
 
 			.images {
-				min-height: 0px;
+				max-height: 200px;
 			}
 /*
 			.row {
-				background-color: rgba(0, 0, 0, 0.4);
+				border: 10px solid black;
 			}
 */
 			.lang {
@@ -130,9 +133,10 @@ Same applies for ol li */
 				background-image: url('jumbotron-image.jpg');
 				background-size: cover;
 				background-attachment: fixed;
+				background-color: rgba(255,255,255,0);
 			}
 
 			.songs {
 				position: center;
-				max-width: 410px;
+				min-width: 410px;
 			}
