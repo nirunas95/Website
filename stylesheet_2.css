@@ -3,6 +3,8 @@ i.e. "h1 {}" targets only items with the h1 tag around it */
 /* ul li targets only the list items/text and not the bulletpoints. 
 Same applies for ol li */
 
+/* GENERAL */
+
 			body {
 				background-color: rgba(0,0,0,0.5);
 				font-family: 'Abel'; sans-serif;
@@ -11,13 +13,7 @@ Same applies for ol li */
 				max-width: 1000px;
 			}
 
-			h1 {
-				color: rgba(255, 255, 255, 1);
-				background-color: solid white;
-				text-align: center;
-				font-size: 75px;
-			}
-
+			
 			h3 {
 				color: rgba(255, 255, 255, 1);
 				border-color: 7px solid black;
@@ -32,12 +28,8 @@ Same applies for ol li */
 
 			div {
 				background-size: cover;
-				position: center;
+				text-align: center;
 				font-family: 'Abel'; sans-serif;
-			}
-
-			ul {
-				font-size: 20px;
 			}
 
 			a {
@@ -54,9 +46,22 @@ Same applies for ol li */
 				border-radius: 20px;
 			}
 
-			table {
-				font-size: 20px;
-				position: center;
+/* HEADER */
+
+			h1 {
+				color: rgba(255, 255, 255, 1);
+				background-color: solid white;
+				text-align: center;
+				font-size: 75px;
+			}
+
+			.jumbotron {
+				height: 270px;
+				margin: 0px 0 50px 0;
+				background-image: url('jumbotron-image.jpg');
+				background-size: cover;
+				background-attachment: fixed;
+				background-color: rgba(255,255,255,0);
 			}
 
 			#head {
@@ -74,6 +79,32 @@ Same applies for ol li */
 				color: white;
 			}
 
+			.images {
+				max-height: 200px;
+			}
+
+/* ABOUT */
+
+			.about div {
+				position: center;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+/* SECTION 1 */
+
+			.sect1 {
+				min-height: 0;
+				text-align: left;
+			}	
+
+			.first {
+				text-align: center;
+				margin: 20px;
+				min-width: 200px;
+			}
+
 			.Languages_title {
 				color: white;
 			}
@@ -82,29 +113,49 @@ Same applies for ol li */
 				color: (0,255,255,1);
 			}
 
-			.first {
-				text-align: center;
-				margin: 20px;
-				min-width: 200px;
+			ul {
+				font-size: 20px;
+				text-align: left;
 			}
 
-			.profile {
-				min-height: 100px;
+/* GALLERY */
+
+			.thumbnails img {
+				height: 80px;
+				border: 2px solid #000;
+				padding: 2px;
+				margin: 0 10px 10px 0;
+				position: center;
+			}
+
+			.thumbnails img:hover {
+				border: 2px solid #000;
+				cursor:pointer;
+			}
+
+			.preview img {
+				border: 2px solid #000;
+				padding: 2px;
+				height: 400px;
+			}
+
+			.photos {
+				position: center;
+			}		
+
+/* SECTION 2 */
+
+			.sect2 {
+				position: center;
 				min-width: 410px;
 			}
 
-			.images {
-				max-height: 200px;
+			table {
+				font-size: 20px;
+				position: center;
 			}
-/*
-			.row {
-				border: 10px solid black;
-			}
-*/
-			.lang {
-				min-height: 0;
-				text-align: left;
-			}
+
+/* PROFILES */
 
 			#social-buttons button {
 				color: white;
@@ -128,39 +179,13 @@ Same applies for ol li */
 				position: justify;
 			}
 
-			.jumbotron {
-				height: 270px;
-				margin: 0px 0 50px 0;
-				background-image: url('jumbotron-image.jpg');
-				background-size: cover;
-				background-attachment: fixed;
-				background-color: rgba(255,255,255,0);
+			.bottom {
+				text-align: center;
+				margin: 20px;
+				min-width: 200px;	
 			}
 
-			.songs {
-				position: center;
+			.profile {
+				min-height: 100px;
 				min-width: 410px;
-			}
-
-			.thumbnails img {
-				height: 80px;
-				border: 2px solid #000;
-				padding: 2px;
-				margin: 0 10px 10px 0;
-				position: center;
-			}
-
-			.thumbnails img:hover {
-				border: 2px solid #000;
-				cursor:pointer;
-			}
-
-			.preview img {
-				border: 2px solid #000;
-				padding: 2px;
-				height: 400px;
-			}
-
-			.photos {
-				position: center;
-			}
+			}		

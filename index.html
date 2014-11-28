@@ -3,23 +3,20 @@
 <html>
 	<head>
 		<title>My first webpage</title>
-		<script src="jquery-2.1.1.js"></script>
+		<script src="jquery-2.1.1.js"></script> <!-- jquery version 2.1.1 javascript -->
 		<script type="text/javascript" src="js1.js"></script>
-		<script src="ga.js"></script>
-		<link rel="stylesheet" type="text/css" href="stylesheet_2.css">
-		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-		<link href="dist/css/bootstrap.css" rel="stylesheet">
+		<script src="ga.js"></script> <!-- Google Analytics javascript -->
+		<link rel="stylesheet" type="text/css" href="stylesheet_2.css"> <!-- Website stylesheet -->
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> <!-- Google Fonts Stylesheet for Indie Flower -->
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'> <!-- Google Fonts Stylesheet for Abel -->
+		<link href="dist/css/bootstrap.css" rel="stylesheet"> <!-- Twitter Bootstrap stylesheet -->
 
-		<!--<script src="C:/Users/niruna95/Documents/Code_First/coding_course_first/first_site/Website/js1.js" type="text/Javascript"></script>-->
-	<!-- inside href, the stylesheet has only be refered to using its file name because it is present in the folder where the html file has been saved. However, if it in a different folder but under the same drive, you can use this format:
-	"../Documents/index_stylesheet_1.css" - This is the relative path
-	 
-	 or even refering to the drive too:
-	 i.e. "C:/DOcuments/index_stylesheet_1.css" - This is the direct path --> 
 	</head>
 
 	<body class="container">
+
+<!--        HEADER        -->       
+
 		<header>
 			<div class="jumbotron">	
 				
@@ -30,119 +27,128 @@
 
 						<p id="opening">This is my <strong>first web page</strong>.</p>
 						<p id="opening">It contains a little bit about <em>me</em>.</p>
-					</div>
+
+					</div> <!-- Close the col-sm-8 div -->
 
 					<div class='col-sm-4'>
 						<img alt='Gravatar' src="proxy.jpg" class="img-circle center-block images">
-					</div>
-				</div>
-			</div>
+					</div> <!-- Close the col-sm-4 div -->
+
+				</div> <!-- Close the row div -->
+
+			</div> <!-- Close the Jumbotron div -->
 		</header>
 
+
+<!--        ABOUT        -->
+
+		<div class="about">
+			<h3><strong>About me:</strong></h3>
+				
+				<p>A song...</p>
+
+		</div> <!-- Close the About div -->
+
+
+<!--        SECTION 1        -->
 		
 		<div class="row">
-			<div class="images first">
-				<div class='col-sm-6'>	
-					<h3><strong>This is my gravatar:</strong></h3>
-				</div>
-			</div>
-
-			<div class="about first">
-				<div class='col-sm-6'>
-					<h3><strong>About me:</strong></h3>
-						<p>A song...</p>
-				</div>
-			</div>
-		</div>
-
-		<div>
-		<div class="row">
-			<div class="lang first">
+			
+			<div class="sect1 first">
 				<div class='col-sm-6'>
 					<h3><strong>My Favourite Markup Languages</strong></h3>
+						
 						<ul>
 							<li>Html</li>
 							<li>CSS</li>
 							<li>Git markdown</li>
 						</ul>
-				</div>
-			</div>
 
-			<div class="lang first">
+				</div> <!-- Close the col-sm-6 div -->
+			</div> <!-- Close sect1 first div -->
+
+			<div class="sect1 first">
+				
 				<div class="col-sm-6">
 					<h3 class="Languages_title"> <strong>Web Programming Languages</strong></h3>
+						
 						<ul id="Languages_List">
 							<li class="language_item">Python</li>
 							<li class="language_item">Ruby on Rails</li>
 							<li class="language_item">Django</li>
 						</ul>
+
 				</div>
 			</div>
+
 		</div>
-		<div>
-	<div class="photos">
-		<h3><strong>Eyes are the window to the soul</strong></h3>
-			<div class="thumbnails">
-				<img onmouseover="preview.src=img1.src" name="img1" src="img1.JPG" alt="" />
-				<img onmouseover="preview.src=img2.src" name="img2" src="img2.JPG" alt="" />
-				<img onmouseover="preview.src=img3.src" name="img3" src="img3.JPG" alt="" />
-				<img onmouseover="preview.src=img6.src" name="img6" src="img4.jpg" alt="" />
-				<img onmouseover="preview.src=img5.src" name="img5" src="img5.JPG" alt="" />
-				<img onmouseover="preview.src=img6.src" name="img6" src="img6.jpg" alt="" />
-				<img onmouseover="preview.src=img6.src" name="img6" src="img7.jpg" alt="" />
-				<img onmouseover="preview.src=img6.src" name="img6" src="img8.jpg" alt="" />
-			</div>	
 
-			<div class="preview" align="center">
-				<img name="preview" src="img1.JPG" alt=""/>
-			</div>
+	
+<!--        GALLERY        -->
 
-	</div> <!-- Close the gallery div -->
-
-			<!-- <div id="links">
-				<a href="proxy.jpg" title="One" data-gallery>
-					<img src="proxy.jpg" alt="One">
-				</a>
-			</div> -->
-
-	<div class="one">
-		<table align="center">
-			<thead>
-				<tr>
-					<th>Song Name</th>
-					<th>Artist</th>
-				</tr>
-			</thead>
-
-			<tbody>
-				<tr>
-					<td>Afire Love</td>
-					<td>Ed Sheeran</td>
-				</tr>
-				<tr>
-					<td>Wicked</td>
-					<td>Taemin</td>
-				</tr>
-			</tbody>
-		</table>
-	</div> 
-
-	<div class="profile first">
-		<h3><strong>My Profiles:</strong></h3>
+		<div class="photos">
+			<h3><strong>Eyes are the window to the soul</strong></h3>
 				
-			<div id="social-buttons">
-				<a href="http://github.com/nirunas95" target="_blank">
+				<div class="thumbnails">
+					<img onmouseover="preview.src=img1.src" name="img1" src="img1.JPG" alt="" />
+					<img onmouseover="preview.src=img2.src" name="img2" src="img2.JPG" alt="" />
+					<img onmouseover="preview.src=img3.src" name="img3" src="img3.JPG" alt="" />
+					<img onmouseover="preview.src=img4.src" name="img4" src="img4.jpg" alt="" />
+					<img onmouseover="preview.src=img5.src" name="img5" src="img5.JPG" alt="" />
+					<img onmouseover="preview.src=img6.src" name="img6" src="img6.jpg" alt="" />
+					<img onmouseover="preview.src=img7.src" name="img7" src="img7.jpg" alt="" />
+					<img onmouseover="preview.src=img8.src" name="img8" src="img8.jpg" alt="" />
+				</div>	
+
+				<div class="preview" align="center">
+					<img name="preview" src="img1.JPG" alt=""/>
+				</div>
+
+		</div> <!-- Close the gallery div -->
+
+
+		<div class="sect2">
+			
+			<table align="center">
+				
+				<thead>
+					<tr>
+						<th>Song Name</th>
+						<th>Artist</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Afire Love</td>
+						<td>Ed Sheeran</td>
+					</tr>
+				
+					<tr>
+						<td>Wicked</td>
+						<td>Taemin</td>
+					</tr>
+				</tbody>
+			</table>
+		</div> 
+
+		<div class="profile bottom">
+			<h3><strong>My Profiles:</strong></h3>
+				
+				<div id="social-buttons">
+					<a href="http://github.com/nirunas95" target="_blank">
 					<button class='btn btn-lg btn-Github'>Github</button>
-				</a>
+					</a>
 				
-				<a href="http://twitter.com/nirunamensi" target="blank">
+					<a href="http://twitter.com/nirunamensi" target="blank">
 					<button class='btn btn-lg btn-twitter'>Twitter</button>
-				</a>
+					</a>
 				
-				<a href="http://2truemushroom.wordpress.com" target="blank">
+					<a href="http://2truemushroom.wordpress.com" target="blank">
 					<button class='btn btn-lg btn-wordpress'>Wordpress</button>
-				</a>
-			</div>
-	</div>
+					</a>
+				</div>
+		</div>
+
 	</body>
 </html>
