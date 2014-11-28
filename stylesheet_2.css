@@ -96,11 +96,11 @@ Same applies for ol li */
 			.images {
 				max-height: 200px;
 			}
-
-			.content {
-				border: 2px solid black;
+/*
+			.row {
+				border: 10px solid black;
 			}
-
+*/
 			.lang {
 				min-height: 0;
 				text-align: left;
@@ -140,4 +140,27 @@ Same applies for ol li */
 			.songs {
 				position: center;
 				min-width: 410px;
+			}
+
+			.thumbnails img {
+				height: 80px;
+				border: 2px solid #000;
+				padding: 2px;
+				margin: 0 10px 10px 0;
+				position: center;
+			}
+
+			.thumbnails img:hover {
+				border: 2px solid #000;
+				cursor:pointer;
+			}
+
+			.preview img {
+				border: 2px solid #000;
+				padding: 2px;
+				height: 400px;
+			}
+
+			.photos {
+				position: center;
 			}
