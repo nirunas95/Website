@@ -12,7 +12,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 				font-family: 'Abel'; sans-serif;
 				position: center;
 				margin: 0 auto;
-				max-width: 1100px;
+				max-width: 1000px;
 			}
 
 			
@@ -35,7 +35,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 			}
 
 			a {
-				font-size: 25px;
+				font-size: 20px;
 				color: rgba(0,0,0,1);
 				font-family: 'Abel', sans-serif;
 				text-align: center;
@@ -44,8 +44,8 @@ If the default Google Font stylesheets have been changed, update the font-family
 			img {
 				margin: 0 0 30px 0;
 				position: center;
-				border: 10px solid white;
-				border-radius: 20px;
+				border: 7px solid white;
+				border-radius: 50px;
 			}
 
 /* HEADER */
@@ -65,15 +65,20 @@ If the default Google Font stylesheets have been changed, update the font-family
 				height: 450px;
 				margin: 0px 0 50px 0;
 				background-image: url('jumbotron.jpg');
-				background-size: cover;
+				background-size: contain;
 				background-attachment: scroll;
 				background-color: rgba(255,255,255,0);
+				border: 15px solid white;
+				border-radius: 50px;
 			}
 
 			#head {
 				text-align: center;
 				font-family: 'Indie Flower', cursive;
-				margin: 20px 0 10px 260px;
+
+					/* adjust margins around the text to align it */
+
+				margin: 0 0 10px 170px;
 				font-size: 50px;
 				color: #fff;
 			}
@@ -161,9 +166,18 @@ If the default Google Font stylesheets have been changed, update the font-family
 				min-width: 410px;
 			}
 
-			td {
+			table {
 				font-size: 20px;
 				position: center;
+				text-align: center;
+			}
+
+			th {
+				padding: 10px;
+			}
+
+			td {
+				padding: 10px;
 			}
 
 /* PROFILES */
