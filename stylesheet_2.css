@@ -161,9 +161,9 @@ If the default Google Font stylesheets have been changed, update the font-family
 				min-width: 410px;
 			}
 
-			table {
+			td {
 				font-size: 20px;
-				position: justify;
+				position: center;
 			}
 
 /* PROFILES */
