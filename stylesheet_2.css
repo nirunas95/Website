@@ -37,7 +37,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 			a {
 				font-size: 25px;
 				color: rgba(0,0,0,1);
-				font-family: 'Indie Flower', cursive;
+				font-family: 'Abel', sans-serif;
 				text-align: center;
 			}
 
@@ -163,7 +163,7 @@ If the default Google Font stylesheets have been changed, update the font-family
 
 			table {
 				font-size: 20px;
-				position: center;
+				position: justify;
 			}
 
 /* PROFILES */
@@ -181,12 +181,13 @@ If the default Google Font stylesheets have been changed, update the font-family
 				border-color: rgba(255,255,255,1);
 				margin: 0 auto;
 			}
-/*
+
 			.btn-2 {
-				background-color: #00acee;
+				background-color: #4868ac;
 				border-color: #009ad5;
+				margin: 0 auto;
 			}
-*/
+
 /*
 			.btn-3 {
 				background-color: #21759b;
@@ -204,3 +205,9 @@ If the default Google Font stylesheets have been changed, update the font-family
 				min-height: 100px;
 				min-width: 410px;
 			}		
+
+/* CONTACT */
+
+			.contact a {
+				margin: 0 10px 0 10px;
+			}
