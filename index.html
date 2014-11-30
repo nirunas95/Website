@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<!-- This is my first html script for a html webpage -->
+<!-- Html script for my webpage -->
 <html>
 	<head>
 		<title>My first webpage</title>
+
 		<script src="jquery-2.1.1.js"></script> <!-- jquery version 2.1.1 javascript -->
 		<script type="text/javascript" src="js1.js"></script>
 		<script src="ga.js"></script> <!-- Google Analytics javascript -->
-		<link rel="stylesheet" type="text/css" href="stylesheet_2.css"> <!-- Website stylesheet -->
+
+							<!-- WEBSITE STYLESHEET -->
+				<!-- Elements can be edited within the stylesheet to personalise website's styling -->
+
+		<link rel="stylesheet" type="text/css" href="stylesheet_2.css"> 
+
+							<!-- FONT STYLESHEETS -->
+				<!-- Fonts can be changed by downloading new stylesheets from http://www.google.com/fonts -->
+
 		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'> <!-- Google Fonts Stylesheet for Indie Flower -->
 		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'> <!-- Google Fonts Stylesheet for Abel -->
-		<link href="dist/css/bootstrap.css" rel="stylesheet"> <!-- Twitter Bootstrap stylesheet -->
+
+					<!-- TWITTER BOOTSTRAP STYLESHEET -->
+				<!-- Other bootstrap extensions can be added below this -->
+
+		<link href="dist/css/bootstrap.css" rel="stylesheet"> 
 
 	</head>
 
@@ -22,16 +35,26 @@
 				
 				<div class="row">
 					
-					<div class='col-sm-8'>	
-						<h1 id="head">a mushroom's world</h1>
+					<div class='col-sm-9'>	
 
-						<p id="opening">This is my <strong>first web page</strong>.</p>
-						<p id="opening">It contains a little bit about <em>me</em>.</p>
+							<!-- Website's main heading -->
+
+						<h1 id="head">UoS Tamil Society</h1>
+
+							<!-- Opening phrases -->
+							<!-- optional opening paragraph -->
+
+				<!--	<p id="opening">This is my <strong>first web page</strong>.</p>
+						<p id="opening">It contains a little bit about <em>me</em>.</p>  -->
 
 					</div> <!-- Close the col-sm-8 div -->
 
-					<div class='col-sm-4'>
-						<img alt='Gravatar' src="proxy.jpg" class="img-circle center-block images">
+
+										<!-- PROFILE PICTURE IN JUMBOTRON -->
+							<!-- Optional. Can be changed by replacing proxy.jpg within src="" with desired file extension -->
+
+					<div class='col-sm-3'>
+				<!--	<img alt='Gravatar' src="logo.png" class="img-circle center-block images">  -->
 					</div> <!-- Close the col-sm-4 div -->
 
 				</div> <!-- Close the row div -->
@@ -41,11 +64,59 @@
 
 
 <!--        ABOUT        -->
+	<!-- Opening section (which I have used as an section to introduce the society). Used to introduce the webpage -->
 
 		<div class="about">
-			<h3><strong>About me:</strong></h3>
+			<h3><strong>About Us:</strong></h3>
 				
-				<p>A song...</p>
+				<p>New to the university in 2014, the first officially SUSU affiliated Tamil Society</p>
+
+			<h4><strong>Current Committee</strong></h4>
+				<div class="row committee">
+					<div class='col-sm-4'>
+						<img alt='President' src="proxy.jpg" class="img-circle center-block images">
+
+						<p>President</p>
+						<p><strong>Shanujan Chandrarajah</strong></p>
+					</div>
+
+					<div class='col-sm-4'>
+						<img alt='Vice-President' src="proxy.jpg" class="img-circle center-block images">
+
+						<p> Vice-President</p>
+						<p><strong>Manibharathi Periasamymanjula</strong></p>
+					</div>
+
+					<div class='col-sm-4'>
+						<img alt='Secretary' src="proxy.jpg" class="img-circle center-block images">
+
+						<p>Secretary</p>
+						<p><strong>Hasini Ranasinghe</strong></p>
+					</div>
+				</div>
+
+				<div class="row committee">
+					<div class='col-sm-4'>
+						<img alt='Treasurer' src="proxy.jpg" class="img-circle center-block images">
+
+						<p>Treasurer</p>
+						<p><strong>Jaimin Shah</strong></p>
+					</div>
+
+					<div class='col-sm-4'>
+						<img alt='Social Secretary' src="proxy.jpg" class="img-circle center-block images">
+
+						<p>Social Secretary</p>
+						<p><strong>Dilini Seneviratne</strong></p>
+					</div>
+
+					<div class='col-sm-4'>
+						<img alt='Dance Co-ordinator' src="proxy.jpg" class="img-circle center-block images">
+
+						<p>Dance Co-ordinator</p>
+						<p><strong>Niruna Suntharalingam</strong></p>
+					</div>
+				</div>
 
 		</div> <!-- Close the About div -->
 
@@ -78,13 +149,16 @@
 							<li class="language_item">Django</li>
 						</ul>
 
-				</div>
-			</div>
+				</div> <!-- Close the col-sm-6 div -->
+			</div> <!-- Close the sect 1 first div -->
 
-		</div>
+		</div> <!-- Close Row div -->
 
 	
 <!--        GALLERY        -->
+	<!-- Images within the gallery can be changed by replacing the content inside src=""
+		 Try to keep images the same size -->
+	<!-- Gallery styling attributes can be changed in the Website's stylesheets -->
 
 		<div class="photos">
 			<h3><strong>Eyes are the window to the soul</strong></h3>
@@ -100,55 +174,88 @@
 					<img onmouseover="preview.src=img8.src" name="img8" src="img8.jpg" alt="" />
 				</div>	
 
+					<!-- Default preview image -->
+
 				<div class="preview" align="center">
 					<img name="preview" src="img1.JPG" alt=""/>
 				</div>
 
 		</div> <!-- Close the gallery div -->
 
+<!-- SECTION 2 -->
 
 		<div class="sect2">
+
+			<h3>Upcoming Events</h3>
 			
 			<table align="center">
-				
+
 				<thead>
 					<tr>
-						<th>Song Name</th>
-						<th>Artist</th>
+						<th>Event</th>
+						<th>Date</th>
+						<th>More Info</th>
 					</tr>
 				</thead>
 
 				<tbody>
 					<tr>
-						<td>Afire Love</td>
-						<td>Ed Sheeran</td>
+						<td>Meet & Greet</td>
+						<td>4th October 2014</td>
+						<td> <a href="" target="_blank">Details</a> </td>
 					</tr>
 				
 					<tr>
-						<td>Wicked</td>
-						<td>Taemin</td>
+						<td>Kaththi Screening</td>
+						<td>4th November 2014</td>
+						<td> <a href="" target="_blank">Details</a> </td>
+					</tr>
+
+					<tr>
+						<td>Deepavali</td>
+						<td>4th November 2014</td>
+						<td> <a href="" target="_blank">Details</a> </td>
+					</tr>
+
+					<tr>
+						<td>Movie Night</td>
+						<td>25th November 2014</td>
+						<td> <a href="" target="_blank">Details</a> </td>
+					</tr>
+
+					<tr>
+						<td>Laser Tag</td>
+						<td>5th December 2014</td>
+						<td> <a href="" target="_blank">Details</a> </td>
 					</tr>
 				</tbody>
-			</table>
-		</div> 
+			</table> <!-- Close table -->
+		</div> <!-- Close Section 2 div -->
+
+<!-- PROFILES -->
 
 		<div class="profile bottom">
 			<h3><strong>My Profiles:</strong></h3>
+
+									<!-- Social Buttons -->
+					<!-- link within href="" and title between <button></button> can be changed to personalise profile button -->
+
+				<div id="social-buttons"> 
+					<a href="https://www.facebook.com/sotontamilsoc?fref=ts" target="_blank">
+					<button class='btn btn-lg btn-1'>Facebook</button>
+					</a> 
 				
-				<div id="social-buttons">
-					<a href="http://github.com/nirunas95" target="_blank">
-					<button class='btn btn-lg btn-Github'>Github</button>
-					</a>
+<!--					<a href="" target="_blank">
+					<button class='btn btn-lg btn-2'>btn-2</button>
+					</a> -->
 				
-					<a href="http://twitter.com/nirunamensi" target="blank">
-					<button class='btn btn-lg btn-twitter'>Twitter</button>
-					</a>
-				
-					<a href="http://2truemushroom.wordpress.com" target="blank">
-					<button class='btn btn-lg btn-wordpress'>Wordpress</button>
-					</a>
-				</div>
-		</div>
+<!--					<a href="" target="_blank">
+					<button class='btn btn-lg btn-3'>btn-2</button>
+					</a> -->
+
+				</div> <!-- Close Social Buttons div -->
+
+		</div> <!-- Close profile bottom div -->
 
 	</body>
-</html>
+</html> <!-- End of code -->

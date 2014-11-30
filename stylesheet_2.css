@@ -4,13 +4,15 @@ i.e. "h1 {}" targets only items with the h1 tag around it */
 Same applies for ol li */
 
 /* GENERAL */
+/* Attributes of tags used widely within the html file can be modified here.
+If the default Google Font stylesheets have been changed, update the font-family attribute within the relevant tags below */
 
 			body {
 				background-color: rgba(0,0,0,0.5);
 				font-family: 'Abel'; sans-serif;
 				position: center;
 				margin: 0 auto;
-				max-width: 1000px;
+				max-width: 1100px;
 			}
 
 			
@@ -42,11 +44,15 @@ Same applies for ol li */
 			img {
 				margin: 0 0 30px 0;
 				position: center;
-				border: 7px solid white;
+				border: 10px solid white;
 				border-radius: 20px;
 			}
 
 /* HEADER */
+/* Controls the styling of the jumbotron/header of the webpage. 
+Jumbotron image can be changed by changing the url inside the background-image attribute. 
+Background attachment can also be changed to either fixed or scroll to fit your personal preference. 
+If the default Google Font stylesheets have been changed, update the font-family attribute within the relevant tags below */
 
 			h1 {
 				color: rgba(255, 255, 255, 1);
@@ -56,21 +62,22 @@ Same applies for ol li */
 			}
 
 			.jumbotron {
-				height: 270px;
+				height: 450px;
 				margin: 0px 0 50px 0;
-				background-image: url('jumbotron-image.jpg');
+				background-image: url('jumbotron.jpg');
 				background-size: cover;
-				background-attachment: fixed;
+				background-attachment: scroll;
 				background-color: rgba(255,255,255,0);
 			}
 
 			#head {
 				text-align: center;
 				font-family: 'Indie Flower', cursive;
+				margin: 20px 0 10px 260px;
 				font-size: 50px;
-				color: #232323;
+				color: #fff;
 			}
-
+/*
 			#opening {
 				text-align: center;
 				font-family: 'Abel'; sans-serif;
@@ -78,7 +85,7 @@ Same applies for ol li */
 				margin: 20px 0 30px 0;
 				color: white;
 			}
-
+*/
 			.images {
 				max-height: 200px;
 			}
@@ -90,6 +97,10 @@ Same applies for ol li */
 				text-align: center;
 				margin-left: auto;
 				margin-right: auto;
+			}
+
+			.committee {
+				font-family: 'Abel'; sans-serif;
 			}
 
 /* SECTION 1 */
@@ -157,28 +168,32 @@ Same applies for ol li */
 
 /* PROFILES */
 
+
 			#social-buttons button {
 				color: white;
 				font-family: 'Abel'; sans-serif;
 			}
 
-			.btn-twitter {
-				background-color: #00acee;
-				border-color: #009ad5;
-			}
+/* background colors within .btn-1, .btn-2 and .btn-3 can be personalised to match the chosen profiles */
 
-			.btn-Github {
-				background-color: rgba(0,0,0,1);
+			.btn-1 {
+				background-color: #4868ac;
 				border-color: rgba(255,255,255,1);
 				margin: 0 auto;
 			}
-
-			.btn-wordpress {
+/*
+			.btn-2 {
+				background-color: #00acee;
+				border-color: #009ad5;
+			}
+*/
+/*
+			.btn-3 {
 				background-color: #21759b;
 				border-color: #FFFFFF;
 				position: justify;
 			}
-
+*/
 			.bottom {
 				text-align: center;
 				margin: 20px;
